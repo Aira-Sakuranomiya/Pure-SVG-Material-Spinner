@@ -1,0 +1,54 @@
+<svg class="spinner1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" >
+  <style>
+  .spinner1 {
+    animation: rotator1 5332ms linear infinite both;
+    transform-origin: center;
+    overflow: hidden;
+  }
+
+  .spinner2 {
+    animation: rotator2 1333ms linear infinite both;
+    transform-origin: center;
+  }
+
+  @keyframes rotator1 {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(720deg); }
+  }
+
+  @keyframes rotator2 {
+    0% { transform: rotate(0deg); }
+    50.00001% { transform: rotate(60deg); }
+    100% { transform: rotate(60deg); }
+  }
+
+  .path {
+    stroke-dasharray: 360;
+    stroke-dashoffset: 0;
+    transform-origin: center;
+    stroke: #fb7299;
+    animation: dash 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+  }
+
+  @keyframes dash {
+    0% { 
+        stroke-dashoffset: 350; 
+    }
+    50% {
+        stroke-dashoffset: 180;
+        transform:rotate(0deg);
+    }
+    50.00001% {
+        stroke-dashoffset: -71;
+        transform:rotate(-102deg);
+    }
+    100% {
+        stroke-dashoffset: -240;
+        transform:rotate(-45deg);
+    }
+  }
+  </style>
+<a class="spinner2">
+  <circle class="path" fill="none" stroke-width="10" stroke-linecap="butt" cx="50" cy="50" r="40"></circle>
+</a>
+</svg>
