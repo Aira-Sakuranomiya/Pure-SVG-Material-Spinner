@@ -23,7 +23,7 @@
 	}
 
 	.path {
-		stroke-dasharray: 265;
+		stroke-dasharray: 360;
 		stroke-dashoffset: 0;
 		transform-origin: center;
 		stroke: #fb7299;
@@ -32,19 +32,19 @@
 
 	@keyframes dash {
 		0% { 
-			stroke-dashoffset: 250; 
+			stroke-dashoffset: 350; 
 			}
 		50% {
-			stroke-dashoffset: 90;
+			stroke-dashoffset: 180;
 			transform:rotate(0deg);
 		}
 		50.00001% {
-			stroke-dashoffset: -75;
-			transform:rotate(-108deg);
+			stroke-dashoffset: -71;
+			transform:rotate(-102deg);
 		}
 		100% {
-			stroke-dashoffset: -236;
-			transform:rotate(-39deg);
+			stroke-dashoffset: -240;
+			transform:rotate(-45deg);
 		}
 	}
 	</style>
