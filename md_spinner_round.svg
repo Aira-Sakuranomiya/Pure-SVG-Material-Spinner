@@ -1,6 +1,6 @@
 <svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
 	<style>
-		.linear {
+		.linear-rotate {
 			transform-origin: center;
 			animation: linear infinite linear-rotate;
 			animation-duration: 1568.2352941176ms;
@@ -79,7 +79,7 @@
 			}
 		}
 	</style>
-	<g class="linear">
+	<g class="linear-rotate">
 		<g class="rotate-arc">
 			<circle fill="none" cx="24" cy="24" r="18"></circle>
 		</g>
